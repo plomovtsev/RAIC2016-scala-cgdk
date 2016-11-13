@@ -1,0 +1,4 @@
+*.jar
+*.MF
+classes
+*.log
