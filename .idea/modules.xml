@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/java-cgdk.iml" filepath="$PROJECT_DIR$/java-cgdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scala-cgdk.iml" filepath="$PROJECT_DIR$/scala-cgdk.iml" />
     </modules>
   </component>
 </project>
-
