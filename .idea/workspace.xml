@@ -73,11 +73,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.122522525">
+            <state vertical-scroll-proportion="0.0">
               <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.122522525">
+              <caret line="4" column="168" selection-start-line="4" selection-start-column="168" selection-end-line="4" selection-end-column="168" />
               <folding />
             </state>
           </provider>
@@ -168,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/model/World.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Status.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/BonusType.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/SkillType.java" />
@@ -219,6 +228,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/model/PlayerContext.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/model/Wizard.scala" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -815,12 +825,12 @@
       <workItem from="1479060438802" duration="8000" />
       <workItem from="1479061036015" duration="65000" />
       <workItem from="1479140975181" duration="664000" />
-      <workItem from="1479551599047" duration="20341000" />
+      <workItem from="1479551599047" duration="21024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94745000" />
+    <option name="totallyTimeSpent" value="95428000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1238,8 +1248,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.122522525">
+        <state vertical-scroll-proportion="0.0">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.122522525">
+          <caret line="4" column="168" selection-start-line="4" selection-start-column="168" selection-end-line="4" selection-end-column="168" />
           <folding />
         </state>
       </provider>
