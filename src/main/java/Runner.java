@@ -31,7 +31,7 @@ public final class Runner {
             PlayerContext playerContext;
 
             while ((playerContext = remoteProcessClient.readPlayerContext()) != null) {
-                Wizard[] playerWizards = playerContext.getWizards();
+                Wizard[] playerWizards = playerContext.wizards();
                 if (playerWizards == null || playerWizards.length != teamSize) {
                     break;
                 }
@@ -44,7 +44,7 @@ public final class Runner {
                     Move move = new Move();
                     moves[wizardIndex] = move;
                     strategies[wizardIndex /*playerWizard.getTeammateIndex()*/].move(
-                            playerWizard, playerContext.getWorld(), game, move
+                            playerWizard, playerContext.world(), game, move
                     );
                 }
 

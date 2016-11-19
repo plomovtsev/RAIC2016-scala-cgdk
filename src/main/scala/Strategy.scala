@@ -1,14 +1,11 @@
-import model.Game;
-import model.Move;
-import model.Wizard;
-import model.World;
+import model.{Game, Move, Wizard, World}
 
 /**
  * Стратегия --- интерфейс, содержащий описание методов искусственного интеллекта волшебника.
  * Каждая пользовательская стратегия должна реализовывать этот интерфейс.
  * Может отсутствовать в некоторых языковых пакетах, если язык не поддерживает интерфейсы.
  */
-public interface Strategy {
+trait Strategy {
     /**
      * Основной метод стратегии, осуществляющий управление волшебником.
      * Вызывается каждый тик для каждого волшебника.
@@ -18,5 +15,5 @@ public interface Strategy {
      * @param game  Различные игровые константы.
      * @param move  Результатом работы метода является изменение полей данного объекта.
      */
-    void move(Wizard self, World world, Game game, Move move);
+    def move(self: Wizard, world: World, game: Game, move: Move)
 }
