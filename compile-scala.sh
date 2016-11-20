@@ -19,7 +19,7 @@ fi
 rm -rf classes
 mkdir classes
 
-$SCALA_HOME/bin/scalac -sourcepath "src/main/scala" -d classes src/main/scala/*.scala src/main/java/model/*.java src/main/java/*.java >compilation.log 2>&1
+$SCALA_HOME/bin/scalac -sourcepath "src/main/scala" -d classes src/main/scala/*.scala src/main/scala/model/*.scala src/main/java/*.java src/main/java/model/*.java >compilation.log 2>&1
 $JAVA_HOME/bin/javac -sourcepath "src/main/java" -cp "classes" -d classes src/main/java/*.java >>compilation.log 2>&1
 
 if [ ! -f classes/MyStrategy.class ]
