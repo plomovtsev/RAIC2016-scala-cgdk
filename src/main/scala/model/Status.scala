@@ -8,8 +8,8 @@ package model
  * @param playerId Возвращает идентификатор игрока, волшебник которого наложил данный статус, или {code -1}.
  * @param remainingDurationTicks Возвращает оставшуюся длительность действия статуса.
  */
-class Status(id: Long,
-              `type`: StatusType,
-              wizardId: Long,
-             playerId: Long,
-             remainingDurationTicks: Int)
+class Status(val id: Long,
+             val `type`: StatusType,
+             val wizardId: Long,
+             val playerId: Long,
+             val remainingDurationTicks: Int)

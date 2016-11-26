@@ -62,11 +62,11 @@ class Wizard(id: Long,
              val castRange: Double,
              val xp: Int,
              val level: Int,
-             val _skills: Array[SkillType],
+             _skills: Array[SkillType],
              val remainingActionCooldownTicks: Int,
-             val _remainingCooldownTicksByAction: Array[Int],
+             _remainingCooldownTicksByAction: Array[Int],
              val isMaster: Boolean,
-             val _messages: Array[Message]) extends LivingUnit(id, x, y, speedX, speedY, angle, faction, radius, life, maxLife, statuses) {
+             _messages: Array[Message]) extends LivingUnit(id, x, y, speedX, speedY, angle, faction, radius, life, maxLife, statuses) {
 
     lazy val skills = if (_skills == null) null else Array() ++ _skills
     lazy val remainingCooldownTicksByAction = if (_remainingCooldownTicksByAction == null) null else Array() ++ _remainingCooldownTicksByAction
